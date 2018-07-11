@@ -73,6 +73,24 @@ var UIController = (function(){
         expensesContainer: '.expenses-list'
     };
 
+    var formatBudget = function(budget, type){
+        var sum, int, decimal, split;
+
+        sum = Math.abs(budget);
+        sum = sum.toFixed(2);
+
+        split = sum.split('.');
+
+        int = split[0];
+        if(int > 3){
+            int = int.substr(0, int.length - 3) + ',' + int.substr(int.length - 3, 3);
+        }
+
+        decimal = split[1];
+
+        return (type === 'exp' ? '-' : '+') + ' ' + int + '.' + decimal;
+    };
+
     return {
         getInput: function(){
             return{
@@ -99,7 +117,7 @@ var UIController = (function(){
             // Replace the placholder text with actual data
             newHtml = html.replace('%id%', obj.id);
             newHtml = newHtml.replace('%description%', obj.description);
-            newHtml = newHtml.replace('%value%', obj.value);
+            newHtml = newHtml.replace('%value%', formatBudget(obj.value,type));
 
             // Insert the HTML into the DOM
             document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
@@ -118,9 +136,12 @@ var UIController = (function(){
         },
 
         updateBudget: function(budget){
-            document.querySelector("#total-income").textContent = budget.totals["total"];
-            document.querySelector("#income").textContent = budget.totals["inc"];
-            document.querySelector("#expenses").textContent = budget.totals["exp"];
+            var type;
+            budget.totals["total"] > 0 ? type = "inc" : type = "exp";
+
+            document.querySelector("#total-income").textContent = formatBudget(budget.totals["total"], type);
+            document.querySelector("#income").textContent = formatBudget(budget.totals["inc"], "inc");
+            document.querySelector("#expenses").textContent = formatBudget(budget.totals["exp"], "exp");
         }
     };
 })();
