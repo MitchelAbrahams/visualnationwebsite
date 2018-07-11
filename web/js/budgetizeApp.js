@@ -21,7 +21,8 @@ var budgetController = (function(){
         },
         totals: {
             inc: 0,
-            exp: 0
+            exp: 0,
+            total: 0
         }
     }
 
@@ -46,6 +47,14 @@ var budgetController = (function(){
             data.allItems[type].push(newItem);
             // Return the new element
             return newItem;
+        },
+
+        calcBudget : function(obj, type){
+
+            data.totals[type] =+ obj.value;
+            data.totals["total"] = data.totals["inc"] - data.totals["exp"];
+
+            return data;
         }
     };
 
@@ -105,6 +114,12 @@ var UIController = (function(){
             fieldsArr.forEach(function(current){
                 current.value = "";
             });
+        },
+
+        updateBudget: function(budget){
+            document.querySelector("#total-income").textContent = budget.totals["total"];
+            document.querySelector("#income").textContent = budget.totals["inc"];
+            document.querySelector("#expenses").textContent = budget.totals["exp"];
         }
     };
 })();
@@ -128,7 +143,7 @@ var controller = (function(budgetCtrl, UICtrl){
     };
 
     var ctrlAddItem = function(){
-        var input, newItem;
+        var input, newItem, budget;
 
         //1. Get input data
         input = UICtrl.getInput();
@@ -141,7 +156,9 @@ var controller = (function(budgetCtrl, UICtrl){
         UICtrl.clearFields();
 
         //4. Calc the budget
+        budget = budgetCtrl.calcBudget(newItem, input.type);
         //5. Display the budget on the UI
+        UICtrl.updateBudget(budget);
     };
 
 

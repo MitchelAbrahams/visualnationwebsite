@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5351bfe4-2eee-4856-8caf-2fcc98c9e7fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MvcCore/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MvcCore/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/budgetizeApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/budgetizeApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/homepage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,18 +34,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homepage.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/homepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+            <state relative-caret-position="323">
+              <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="budgetizeApp.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="budgetizeApp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/budgetizeApp.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="123" column="6" lean-forward="true" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
@@ -172,14 +175,14 @@
         <option value="$PROJECT_DIR$/src/MvcCore/userDbUtil.java" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/web/js/qouteGen.js" />
-        <option value="$PROJECT_DIR$/web/views/homepage.jsp" />
-        <option value="$PROJECT_DIR$/web/js/budgetizeApp.js" />
         <option value="$PROJECT_DIR$/src/MvcCore/MvcBase.java" />
         <option value="$PROJECT_DIR$/src/MvcCore/AssociativeData.java" />
         <option value="$PROJECT_DIR$/src/MvcCore/RegisterDbUtil.java" />
         <option value="$PROJECT_DIR$/web/views/register.jsp" />
         <option value="$PROJECT_DIR$/src/MvcCore/Register.java" />
         <option value="$PROJECT_DIR$/src/MvcCore/Database.java" />
+        <option value="$PROJECT_DIR$/web/views/homepage.jsp" />
+        <option value="$PROJECT_DIR$/web/js/budgetizeApp.js" />
       </list>
     </option>
   </component>
@@ -253,6 +256,17 @@
             <path>
               <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -522,41 +536,42 @@
       <workItem from="1530796110930" duration="5361000" />
       <workItem from="1530860373109" duration="21416000" />
       <workItem from="1530896520847" duration="15554000" />
-      <workItem from="1531307208367" duration="324000" />
+      <workItem from="1531307208367" duration="4244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43667000" />
+    <option name="totallyTimeSpent" value="47587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3103082" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83209354" visible="true" weight="0.118229166" />
-      <window_info id="Web" order="6" sideWeight="0.16790648" side_tool="true" visible="true" weight="0.118229166" />
       <window_info anchor="right" id="Database" order="5" weight="0.21197917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3291536" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837406" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8306962" visible="true" weight="0.118229166" />
+      <window_info id="Web" order="6" sideWeight="0.1693038" side_tool="true" visible="true" weight="0.118229166" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3291536" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -914,9 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/budgetizeApp.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -929,8 +941,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+        <state relative-caret-position="323">
+          <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/budgetizeApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="123" column="6" lean-forward="true" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
         </state>
       </provider>
     </entry>

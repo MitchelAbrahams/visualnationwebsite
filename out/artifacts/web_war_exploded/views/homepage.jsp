@@ -56,14 +56,14 @@
         <div class="budget-top">
             <h1>Budgetize</h1>
             <p>Loot this month</p>
-            <h2 class="total-income"> + 1234.95</h2>
+            <h2 class="total-income" id="total-income"> + 1234.95</h2>
             <div class="inc">
                 <p>Income</p>
-                <h4>+1234.95</h4>
+                <h4 id="income">+1234.95</h4>
             </div>
             <div class="exp">
                 <p>Expenses</p>
-                <h4>-1234.95</h4>
+                <h4 id="expenses">-1234.95</h4>
             </div>
         </div>
         <div class="budget-middle">
