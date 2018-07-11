@@ -50,8 +50,14 @@ var budgetController = (function(){
         },
 
         calcBudget : function(obj, type){
+            var totalInc, totalExp;
 
-            data.totals[type] =+ obj.value;
+
+            // Gets value, stores in right var and puts it in the data object
+            for(var i = 0; i < data.allItems[type];i++){
+                data.totals[type] =+ data.allItems[type].value;
+            }
+            // Calculates the total
             data.totals["total"] = data.totals["inc"] - data.totals["exp"];
 
             return data;
