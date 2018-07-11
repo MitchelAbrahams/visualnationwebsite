@@ -16,7 +16,8 @@ public class Database {
    public Database() {
        try {
            Class.forName("com.mysql.cj.jdbc.Driver");
-           con = DriverManager.getConnection("jdbc:mysql://localhost:8889/visualnation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "root");
+//           con = DriverManager.getConnection("jdbc:mysql://localhost:8889/visualnation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "root");
+           con = DriverManager.getConnection("jdbc:mysql://localhost:3306/visualnation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "lolhan_capuser", "Z3pVH5AgA58IpCzh");
            stmt = con.createStatement();
        } catch (Exception e) {
            e.printStackTrace();
