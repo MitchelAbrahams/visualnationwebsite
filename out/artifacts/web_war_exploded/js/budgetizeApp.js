@@ -24,7 +24,7 @@ var budgetController = (function(){
             exp: 0,
             total: 0
         }
-    }
+    };
 
     return {
         addItem: function(type, des, val){
@@ -35,14 +35,14 @@ var budgetController = (function(){
                 ID = data.allItems[type].length + 1;
             } else {
                 ID = 0;
-            };
+            }
 
             // Create new item
             if(type === 'exp'){
                 newItem = new Expenses(ID, des, val);
             } else if(type === 'inc'){
                 newItem = new Income(ID,des,val);
-            };
+            }
             // Push into data structure
             data.allItems[type].push(newItem);
             // Return the new element
@@ -50,14 +50,9 @@ var budgetController = (function(){
         },
 
         calcBudget : function(obj, type){
-            var totalInc, totalExp;
 
+            data.totals[type] += parseInt(obj.value);
 
-            // Gets value, stores in right var and puts it in the data object
-            for(var i = 0; i < data.allItems[type];i++){
-                data.totals[type] =+ data.allItems[type].value;
-            }
-            // Calculates the total
             data.totals["total"] = data.totals["inc"] - data.totals["exp"];
 
             return data;
