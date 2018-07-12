@@ -37,8 +37,6 @@ let budgetController = (function(){
                 ID = 0;
             }
 
-            console.log(ID);
-
             // Create new item
             if(type === 'exp'){
                 newItem = new Expenses(ID, des, val);
@@ -220,8 +218,8 @@ let controller = (function(budgetCtrl, UICtrl){
         //6. delete entry from list
     };
 
-    var ctrlDeleteItem = function(event) {
-        var itemID, splitID, type, ID, budget;
+    let ctrlDeleteItem = function(event) {
+        let itemID, splitID, type, ID, budget;
 
         itemID = event.target.parentNode.parentNode.parentNode.parentNode.id;
         console.log(itemID);
