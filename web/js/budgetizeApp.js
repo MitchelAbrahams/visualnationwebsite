@@ -108,10 +108,10 @@ let UIController = (function(){
             // Create HTML String with placeholder text
             if(type === 'inc') {
                 element = DOMStrings.incomeContainer;
-                html = '<div class="list-container" id="income-%id%"><div class="item-description">%description%</div><div class="item-value">%value%</div></div>';
+                html = '<div class="list-container" id="income-%id%"><div class="item-description">%description%</div><div class="item-value">%value%<div class="item-delete"><button class="del-btn"><span class="material-icons">delete</span></button></div></div></div>';
             } else if(type === 'exp') {
                 element = DOMStrings.expensesContainer;
-                html = '<div class="list-container" id="expense-%id%"><div class="item-description">%description%</div><div class="item-value">%value%</div></div>';
+                html = '<div class="list-container" id="expense-%id%"><div class="item-description">%description%</div><div class="item-value">%value%<div class="item-delete"><button class="del-btn"><span class="material-icons">delete</span></button></div></div></div>';
             };
 
             // Replace the placholder text with actual data

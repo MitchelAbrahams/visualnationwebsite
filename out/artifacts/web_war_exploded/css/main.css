@@ -237,6 +237,13 @@ p {
     color: #595959;
 }
 
+.item-delete {
+    float:right;
+    font-size: 125%;
+    font-weight: 400;
+    color: #595959;
+}
+
 .list-container {
     padding: 10px;
     border-top:1px solid #cccccc;
@@ -244,3 +251,20 @@ p {
     height: 30px;
 }
 
+.del-btn {
+    display: none;
+    border: 2px solid transparent;
+    color: #595959;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, display 0.3s;
+}
+
+.item-value:hover .del-btn{
+    display: inline-block;
+}
+
+.del-btn:hover {
+    border: 2px solid transparent;
+    color:  #ff4d4d;
+    background-color: transparent;
+}

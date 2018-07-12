@@ -84,6 +84,7 @@
                     <%--<div class="list-container" id="income-0">--%>
                         <%--<div class="item-description">Salary</div>--%>
                         <%--<div class="item-value">+ 2,100.00</div>--%>
+                        <%--<div class="item-delete"><button class="del-btn"><span class="material-icons">delete</span></button></div>--%>
                     <%--</div>--%>
                     <%--<div class="list-container" id="income-1">--%>
                         <%--<div class="item-description">Salary</div>--%>

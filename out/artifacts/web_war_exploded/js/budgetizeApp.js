@@ -1,20 +1,20 @@
 
 //BUDGET CONTROLLER
-var budgetController = (function(){
+let budgetController = (function(){
 
-    var Expenses = function(id, description, value){
+    let Expenses = function(id, description, value){
         this.id = id;
         this.description = description;
         this.value = value;
     };
 
-    var Income = function(id, description, value){
+    let Income = function(id, description, value){
         this.id = id;
         this.description = description;
         this.value = value;
     };
 
-    var data = {
+    let data = {
         allItems: {
             inc: [],
             exp:[]
@@ -28,7 +28,7 @@ var budgetController = (function(){
 
     return {
         addItem: function(type, des, val){
-            var newItem, ID;
+            let newItem, ID;
 
             // Create new id
             if(data.allItems[type].length > 0){
@@ -62,9 +62,9 @@ var budgetController = (function(){
 })();
 
 //UICONTROLLER
-var UIController = (function(){
+let UIController = (function(){
 
-    var DOMStrings = {
+    const DOMStrings = {
         inputType: '.add-type',
         description: '.add-description',
         inputValue: '.add-value',
@@ -73,8 +73,8 @@ var UIController = (function(){
         expensesContainer: '.expenses-list'
     };
 
-    var formatBudget = function(budget, type){
-        var sum, int, decimal, split;
+    let formatBudget = function(budget, type){
+        let sum, int, decimal, split;
 
         sum = Math.abs(budget);
         sum = sum.toFixed(2);
@@ -103,15 +103,15 @@ var UIController = (function(){
             return DOMStrings;
         },
         addListItem: function(obj,type){
-            var html, newHtml, element;
+            let html, newHtml, element;
 
             // Create HTML String with placeholder text
             if(type === 'inc') {
                 element = DOMStrings.incomeContainer;
-                html = '<div class="list-container" id="income-%id%"><div class="item-description">%description%</div><div class="item-value">%value%</div></div>';
+                html = '<div class="list-container" id="income-%id%"><div class="item-description">%description%</div><div class="item-value">%value%<div class="item-delete"><button class="del-btn"><span class="material-icons">delete</span></button></div></div></div>';
             } else if(type === 'exp') {
                 element = DOMStrings.expensesContainer;
-                html = '<div class="list-container" id="expense-%id%"><div class="item-description">%description%</div><div class="item-value">%value%</div></div>';
+                html = '<div class="list-container" id="expense-%id%"><div class="item-description">%description%</div><div class="item-value">%value%<div class="item-delete"><button class="del-btn"><span class="material-icons">delete</span></button></div></div></div>';
             };
 
             // Replace the placholder text with actual data
@@ -124,7 +124,7 @@ var UIController = (function(){
         },
 
         clearFields: function(){
-            var fields, fieldsArr;
+            let fields, fieldsArr;
 
             fields = document.querySelectorAll(DOMStrings.description + ',' + DOMStrings.inputValue);
 
@@ -136,7 +136,7 @@ var UIController = (function(){
         },
 
         updateBudget: function(budget){
-            var type;
+            let type;
             budget.totals["total"] > 0 ? type = "inc" : type = "exp";
 
             document.querySelector("#total-income").textContent = formatBudget(budget.totals["total"], type);
@@ -147,10 +147,10 @@ var UIController = (function(){
 })();
 
 //GLOBAL APP CONTROLLER
-var controller = (function(budgetCtrl, UICtrl){
+let controller = (function(budgetCtrl, UICtrl){
 
-    var setupEventListeners = function() {
-        var DOMStrings = UICtrl.getDOMStrings();
+    let setupEventListeners = function() {
+        const DOMStrings = UICtrl.getDOMStrings();
 
         // Event listener for button
         document.querySelector(DOMStrings.addButton).addEventListener('click', ctrlAddItem);
@@ -164,8 +164,8 @@ var controller = (function(budgetCtrl, UICtrl){
         });
     };
 
-    var ctrlAddItem = function(){
-        var input, newItem, budget;
+    let ctrlAddItem = function(){
+        let input, newItem, budget;
 
         //1. Get input data
         input = UICtrl.getInput();
