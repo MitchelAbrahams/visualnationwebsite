@@ -1,8 +1,6 @@
 package MvcCore;
 
 import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.List;
 
 public class RegisterDbUtil {
 

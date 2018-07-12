@@ -1,7 +1,5 @@
 package MvcCore;
 
-import com.mysql.cj.protocol.ResultsetRow;
-
 import java.sql.*;
 
 public class Database {
@@ -9,7 +7,6 @@ public class Database {
     private Connection con = null;
     private Statement stmt = null;
     private ResultSet rs = null;
-    private ResultsetRow rsw = null;
     private PreparedStatement prep = null;
 
 
