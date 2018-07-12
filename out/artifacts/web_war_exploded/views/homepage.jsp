@@ -77,32 +77,26 @@
                 <button class="add-btn">add</button>
             </div>
         </div>
-        <div class="budget-bottom">
-            <div class="income">
-                <h2 class="income-title">Income</h2>
-                <div class="income-list">
-                    <%--<div class="list-container" id="income-0">--%>
-                        <%--<div class="item-description">Salary</div>--%>
-                        <%--<div class="item-value">+ 2,100.00</div>--%>
-                        <%--<div class="item-delete"><button class="del-btn"><span class="material-icons">delete</span></button></div>--%>
-                    <%--</div>--%>
-                    <%--<div class="list-container" id="income-1">--%>
-                        <%--<div class="item-description">Salary</div>--%>
-                        <%--<div class="item-value">+ 2,100.00</div>--%>
-                    <%--</div>--%>
+        <div class="container">
+            <div class="budget-bottom">
+                <div class="income">
+                    <h2 class="income-title">Income</h2>
+                    <div class="income-list">
+                        <%--<div class="list-container" id="income-0">--%>
+                            <%--<div class="item-description">Salary</div>--%>
+                            <%--<div class="item-value">+ 2,100.00</div>--%>
+                            <%--<div class="item-delete"><button class="del-btn"><span class="material-icons">delete</span></button></div>--%>
+                        <%--</div>--%>
+                    </div>
                 </div>
-            </div>
-            <div class="expenses">
-                <h2 class="expenses-title">Expenses</h2>
-                <div class="expenses-list">
-                    <%--<div class="list-container" id="expense-0">--%>
-                        <%--<div class="item-description">Apartment rent</div>--%>
-                        <%--<div class="item-value">- 900.00</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="list-container" id="expense-1">--%>
-                        <%--<div class="item-description">Apartment rent</div>--%>
-                        <%--<div class="item-value">- 900.00</div>--%>
-                    <%--</div>--%>
+                <div class="expenses">
+                    <h2 class="expenses-title">Expenses</h2>
+                    <div class="expenses-list">
+                        <%--<div class="list-container" id="expense-0">--%>
+                            <%--<div class="item-description">Apartment rent</div>--%>
+                            <%--<div class="item-value">- 900.00</div>--%>
+                        <%--</div>--%>
+                    </div>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ public class MvcBase extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        ResultSet names = db.resultSet();
+        ResultSet names = db.single("mitchel");
 
         try {
             while (names.next()) {

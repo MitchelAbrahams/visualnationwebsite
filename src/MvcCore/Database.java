@@ -58,9 +58,10 @@ public class Database {
        return rs;
    }
 
-   public ResultSet single(){
+   public ResultSet single(String username){
        try {
-           rs = stmt.executeQuery("SELECT * FROM users");
+           rs = stmt.executeQuery("SELECT ? FROM users");
+           bind(1,username);
        } catch (SQLException e) {
            e.printStackTrace();
        }
