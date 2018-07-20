@@ -7,7 +7,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5351bfe4-2eee-4856-8caf-2fcc98c9e7fb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/web/js/budgetizeApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/budgetizeApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/visualnation/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.annotation-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-indexer-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-indexer-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-indexer-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jcl-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jcl-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webflux-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webflux-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webflux-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-5.0.7.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-5.0.7.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-5.0.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBaseMvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBaseMvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/MvcBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/Pages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/RegisterDbUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/MvcCore/userDbUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/css/normilize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/img/placeholder-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/budgetizeApp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/qouteGen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/views/homepage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/views/names_test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/views/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/MvcBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/Pages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/RegisterDbUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/MvcCore/userDbUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/MvcBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/Pages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/RegisterDbUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MvcCore/userDbUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/normilize.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/normilize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/placeholder-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/img/placeholder-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/budgetizeApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/js/budgetizeApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/qouteGen.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/js/qouteGen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/names_test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/names_test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,94 +150,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="homepage.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/homepage.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/main.css">
+        <entry file="file://$PROJECT_DIR$/web/resources/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="277" column="1" lean-forward="true" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
+            <state relative-caret-position="4709">
+              <caret line="277" column="1" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java">
+      <file leaf-file-name="budgetizeApp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/js/budgetizeApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="2125">
+              <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pages.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MvcCore/Pages.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mvc-demo-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MvcCore/Index.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="budgetizeApp.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/budgetizeApp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MvcCore/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterDbUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MvcCore/RegisterDbUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MvcBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MvcCore/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -149,7 +235,6 @@
         <option value="$PROJECT_DIR$/src/MvcCore/DatabaseTwo.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/css/normilize.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/homepage.jsp" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/src/MvcCore/Pages.java" />
@@ -166,6 +251,10 @@
         <option value="$PROJECT_DIR$/web/views/homepage.jsp" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/web/js/budgetizeApp.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp" />
+        <option value="$PROJECT_DIR$/src/com/visualnation/controllers/HomeController.java" />
       </list>
     </option>
   </component>
@@ -238,8 +327,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -257,7 +346,18 @@
               <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MvcCore" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,11 +382,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mitchel\IdeaProjects\JavaBaseMvc\web\css" />
-      <recent name="C:\Users\mitchel\IdeaProjects\JavaBaseMvc\web\views" />
-      <recent name="C:\Users\mitchel\IdeaProjects\JavaBaseMvc\web\WEB-INF\lib" />
+      <recent name="C:\Users\mitchel\visualnationwebsite\web\resources" />
+      <recent name="C:\Users\mitchel\visualnationwebsite\resources\visualnation" />
+      <recent name="C:\Users\mitchel\visualnationwebsite\web\WEB-INF" />
+      <recent name="C:\Users\mitchel\visualnationwebsite\web" />
+      <recent name="C:\Users\mitchel\visualnationwebsite\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.visualnation.controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mitchel\visualnationwebsite" />
+      <recent name="C:\Users\mitchel\visualnationwebsite\web\WEB-INF" />
+      <recent name="C:\Users\mitchel\visualnationwebsite\web\WEB-INF\lib" />
       <recent name="C:\Users\mitchel\IdeaProjects\JavaBaseMvc\web\img" />
       <recent name="C:\Users\mitchel\IdeaProjects\JavaBaseMvc\web\WEB-INF\lib" />
     </key>
@@ -528,12 +636,15 @@
       <workItem from="1530896520847" duration="15554000" />
       <workItem from="1531307208367" duration="9772000" />
       <workItem from="1531383769631" duration="13578000" />
-      <workItem from="1531401223734" duration="3616000" />
+      <workItem from="1531401223734" duration="5167000" />
+      <workItem from="1531723434360" duration="92000" />
+      <workItem from="1532088403632" duration="6070000" />
+      <workItem from="1532094709613" duration="286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70309000" />
+    <option name="totallyTimeSpent" value="78308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -558,18 +669,19 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25079703" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25079703" />
+      <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82978725" visible="true" weight="0.21458334" />
-      <window_info id="Web" order="6" sideWeight="0.17021276" side_tool="true" visible="true" weight="0.21458334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8255319" visible="true" weight="0.3203125" />
+      <window_info id="Web" order="6" sideWeight="0.17446809" side_tool="true" visible="true" weight="0.3203125" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,91 +700,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/names_test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/budgetizeApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/homepage.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Pages.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Register.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/RegisterDbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/RegisterDbUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/MvcCore/AssociativeData.java" />
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/names_test.jsp">
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/names_test.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/budgetizeApp.js">
+    <entry file="file://$PROJECT_DIR$/web/resources/js/budgetizeApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
@@ -686,62 +741,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/homepage.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="88" lean-forward="true" selection-start-line="40" selection-start-column="88" selection-end-line="40" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/normilize.css">
+    <entry file="file://$PROJECT_DIR$/web/resources/css/normilize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="340" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+    <entry file="file://$PROJECT_DIR$/web/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Index.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Pages.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Register.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -749,21 +780,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/names_test.jsp">
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/names_test.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
@@ -777,7 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
@@ -792,127 +817,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Servlet.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9ca6588a-43cc-4d6b-8065-bae887a53601/console.sql" />
-    <entry file="file://$PROJECT_DIR$/web/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/normilize.css">
+    <entry file="file://$PROJECT_DIR$/web/resources/css/normilize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="340" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/names_test.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/names_test.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/register.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/qouteGen.js">
+    <entry file="file://$PROJECT_DIR$/web/resources/js/qouteGen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/userDbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/userDbUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/User.java" />
     <entry file="file://$PROJECT_DIR$/src/MvcCore/DatabaseTwo.java" />
     <entry file="file://$PROJECT_DIR$/src/MvcCore/AssociativeData.java" />
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Database.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Index.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Pages.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/Register.java" />
+    <entry file="file://$PROJECT_DIR$/src/MvcCore/RegisterDbUtil.java" />
+    <entry file="file://$PROJECT_DIR$/web/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="4709">
+          <caret line="277" column="1" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Index.java">
+    <entry file="file://$PROJECT_DIR$/web/resources/js/budgetizeApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="2125">
+          <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/MvcBase.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Pages.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="408">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/Register.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="408">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MvcCore/RegisterDbUtil.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="289">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/homepage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="277" column="1" lean-forward="true" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/budgetizeApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -971,7 +960,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JavaBaseMvc</last-edited>
+          <last-edited>Spring|JavaBaseMvc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
