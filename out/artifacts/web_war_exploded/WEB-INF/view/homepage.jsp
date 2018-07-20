@@ -24,8 +24,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <%--<link rel="stylesheet" href="css/normalize.css">--%>
+    <link href="${pageContext.request.contextPath}/resources/css/normilize.css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet">
+
 
     <!-- volgorde stylesheets: zoals in een stylesheet worden de stylesheets zelf ook volgorde geladen en de laatste heeft dus altijd voorrang, daar zet je dus altijd je eigen stylesheet zodat je alles kunt overriden. Het je meerdere eigen stylesheets, dan zet je ze op specificiteit  -->
 </head>
