@@ -7,10 +7,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
 public class TestJdbc {
 
     public static void main(String[] args){
@@ -24,9 +20,20 @@ public class TestJdbc {
 
 
         try{
-            User user = new User("visualnation","Vrijdag1990!?", "visualnationnl@gmail.com");
+
+            // saving object to DB
+            User user = new User("ingezoutenbier","Inge1991", "ingezoutenbier@hotmail.com");
             session.beginTransaction();
             session.save(user);
+            session.getTransaction().commit();
+
+            // Getting obj from DB
+            session = factory.getCurrentSession();
+            session.beginTransaction();
+            User theUser = session.get(User.class, user.getId());
+
+            System.out.println("Get complete " + theUser);
+
             session.getTransaction().commit();
 
         }
