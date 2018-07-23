@@ -41,7 +41,7 @@
                     <li><a href="#">menu item</a></li>
                     <li><a href="#">menu item</a></li>
                     <li><a href="#">menu item</a></li>
-                    <li><a href="test"><span class="material-icons">person</span></a></li>
+                    <li><a href="/user/account"><span class="material-icons">person</span></a></li>
                 </ul>
             </div>
         </nav>

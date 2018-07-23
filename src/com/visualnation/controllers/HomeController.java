@@ -12,7 +12,7 @@ public class HomeController {
         return "homepage";
     }
 
-    @RequestMapping("test")
+    @RequestMapping("user")
     public String showRegisterPage(){
         return "register";
     }

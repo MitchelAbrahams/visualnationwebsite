@@ -7,6 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!doctype html>
 <html class="no-js" lang="nl">
 
@@ -46,30 +47,23 @@
 </head>
 <main>
     <div class="row">
-        <h1>Hello: ${param.username}</h1>
-        <form action="register" method="post">
-            <div class="col-1-3 inline-label">
-                <label for="username">Email</label>
-            </div>
-            <div class="col-2-3">
-                <input type="text" class="input-user" name="username" autocomplete="username" required id="username" placeholder="choose your username">
-            </div>
-            <%--<div class="col-1-3 inline-label">--%>
-                <%--<label for="email">Email</label>--%>
-            <%--</div>--%>
-            <%--<div class="col-2-3">--%>
-                <%--<input type="email" class="input-user" name="email" autocomplete="email" required id="email" placeholder="Your email address">--%>
-            <%--</div>--%>
-            <%--<div class="col-1-3 inline-label">--%>
-                <%--<label for="password">Password</label>--%>
-            <%--</div>--%>
-            <%--<div class="col-2-3">--%>
-                <%--<input type="password" class="input-user" name="password" id="password" required placeholder="Your password">--%>
-            <%--</div>--%>
-            <%--<div class="col-3-3">--%>
-                <button type="submit"><span class="material-icons">check</span> Sign in</button>
-            </div>
-        </form>
+        <h1>Hello: ${user.username} with email: ${user.email} from: ${user.country}</h1>
+        <form:form action="register" modelAttribute="user">
+
+                <form:input path="username" />
+        <br><br>
+                <form:input path="email" />
+                <form:errors path="email" />
+        <br><br>
+                <input type="submit" value="submit" />
+            <br><br>
+                <form:select path="country">
+                    <form:option value="Netherlands" label="Netherlands"/>
+                    <form:option value="America" label="America"/>
+                    <form:option value="France" label="France"/>
+                    <form:option value="Japan" label="Japan"/>
+                </form:select>
+        </form:form>
     </div>
 </main>
 </body>
