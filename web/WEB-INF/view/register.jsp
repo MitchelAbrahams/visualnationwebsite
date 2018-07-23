@@ -46,7 +46,7 @@
 </head>
 <main>
     <div class="row">
-        <h1>Hello: ${param.username}</h1>
+        <h1>Hello: ${usernameCaps}</h1>
         <form action="register" method="post">
             <div class="col-1-3 inline-label">
                 <label for="username">Email</label>
