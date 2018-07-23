@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5351bfe4-2eee-4856-8caf-2fcc98c9e7fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/visualnation/TestJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/TestJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visualnation/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/entities/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,8 +105,8 @@
       <file leaf-file-name="TestJdbc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/visualnation/TestJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="487">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -302,31 +301,6 @@
             <path>
               <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="visualnation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="visualnation" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="visualnation" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -622,12 +596,12 @@
       <workItem from="1531723434360" duration="92000" />
       <workItem from="1532088403632" duration="6070000" />
       <workItem from="1532094709613" duration="2599000" />
-      <workItem from="1532328486445" duration="19861000" />
+      <workItem from="1532328486445" duration="22656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100482000" />
+    <option name="totallyTimeSpent" value="103277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -975,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visualnation/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="487">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

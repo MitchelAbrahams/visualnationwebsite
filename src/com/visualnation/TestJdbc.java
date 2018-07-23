@@ -6,6 +6,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import java.util.List;
+
 
 public class TestJdbc {
 
@@ -21,25 +23,36 @@ public class TestJdbc {
 
         try{
 
-            // saving object to DB
-            User user = new User("ingezoutenbier","Inge1991", "ingezoutenbier@hotmail.com");
+            // OLD EXAMPLES
+//            // saving object to DB
+//            User user = new User("ingezoutenbier","Inge1991", "ingezoutenbier@hotmail.com");
+//            session.beginTransaction();
+//            session.save(user);
+//            session.getTransaction().commit();
+//
+//            // Getting obj from DB
+//            session = factory.getCurrentSession();
+//            session.beginTransaction();
+//            User theUser = session.get(User.class, user.getId());
+//
+//            System.out.println("Get complete " + theUser);
+//
+//            session.getTransaction().commit();
+
+           // NEW EXAMPLES
             session.beginTransaction();
-            session.save(user);
+            List<User> userList = session.createQuery("from User u where u.username='ingezoutenbier'").getResultList();
+
+            for(User tempUsers : userList){
+                System.out.println(tempUsers);
+            }
+
             session.getTransaction().commit();
 
-            // Getting obj from DB
-            session = factory.getCurrentSession();
-            session.beginTransaction();
-            User theUser = session.get(User.class, user.getId());
-
-            System.out.println("Get complete " + theUser);
-
-            session.getTransaction().commit();
 
         }
         finally {
             factory.close();
         }
-
     }
 }
