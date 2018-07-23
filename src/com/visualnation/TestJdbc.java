@@ -1,5 +1,12 @@
 package com.visualnation;
 
+
+import com.visualnation.entities.User;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -8,16 +15,24 @@ public class TestJdbc {
 
     public static void main(String[] args){
 
-        String url = "jdbc:mysql://localhost:3306/visualnation?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-        String username = "lolhan_capuser";
-        String password = "Z3pVH5AgA58IpCzh";
+        SessionFactory factory = new Configuration()
+                                .configure("hibernate.cfg.xml")
+                                .addAnnotatedClass(User.class)
+                                .buildSessionFactory();
 
-        try {
-            System.out.println("trying to connect to database visualnation");
-            Connection myCon = DriverManager.getConnection(url,username,password);
-            System.out.println("succesfull connection");
-        } catch (SQLException e) {
-            e.printStackTrace();
+        Session session = factory.getCurrentSession();
+
+
+        try{
+            User user = new User("visualnation","Vrijdag1990!?", "visualnationnl@gmail.com");
+            session.beginTransaction();
+            session.save(user);
+            session.getTransaction().commit();
+
         }
+        finally {
+            factory.close();
+        }
+
     }
 }

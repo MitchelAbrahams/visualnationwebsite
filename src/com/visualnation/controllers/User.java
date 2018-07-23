@@ -2,7 +2,6 @@ package com.visualnation.controllers;
 
 import com.visualnation.validation.IsEmail;
 
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
