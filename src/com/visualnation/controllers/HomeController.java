@@ -14,7 +14,7 @@ public class HomeController {
 
     @RequestMapping("user")
     public String showRegisterPage(){
-        return "register";
+        return "account";
     }
 
 }

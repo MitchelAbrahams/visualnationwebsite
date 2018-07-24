@@ -105,7 +105,7 @@
         </div>
     </div>
     <div class="cs-bg">
-        <h1>Next app is comming soon</h1>
+        <h1>Next app is coming soon</h1>
     </div>
 </head>
 </body>

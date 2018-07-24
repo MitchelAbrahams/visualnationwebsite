@@ -1,6 +1,10 @@
 package com.visualnation.entities;
 
+import com.visualnation.validation.IsEmail;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "users")
@@ -17,18 +21,26 @@ public class User {
 
     @Column(name = "password")
     private String password;
+    private String passwordCheck;
 
+    @NotNull(message = "email is required")
+    @Size(min = 4, message = "email must be longer than 4 characters")
+    @IsEmail(value = "@", message = "Please enter a correct email format")
     @Column(name = "email")
     private String email;
+
+    private String country;
 
     public User(){
 
     }
 
-    public User(String username, String password, String email) {
+    public User(String username, String password, String passwordCheck, String email, String country) {
         this.username = username;
         this.password = password;
+        this.passwordCheck = passwordCheck;
         this.email = email;
+        this.country = country;
     }
 
     public int getId() {
@@ -63,6 +75,21 @@ public class User {
         this.email = email;
     }
 
+    public String getPasswordCheck() {
+        return passwordCheck;
+    }
+
+    public void setPasswordCheck(String passwordCheck) {
+        this.passwordCheck = passwordCheck;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
 
     @Override
     public String toString() {
