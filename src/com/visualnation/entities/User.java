@@ -21,7 +21,6 @@ public class User {
 
     @Column(name = "password")
     private String password;
-    private String passwordCheck;
 
     @NotNull(message = "email is required")
     @Size(min = 4, message = "email must be longer than 4 characters")
@@ -29,16 +28,16 @@ public class User {
     @Column(name = "email")
     private String email;
 
+    @Column(name="country")
     private String country;
 
     public User(){
 
     }
 
-    public User(String username, String password, String passwordCheck, String email, String country) {
+    public User(String username, String password, String email, String country) {
         this.username = username;
         this.password = password;
-        this.passwordCheck = passwordCheck;
         this.email = email;
         this.country = country;
     }
@@ -73,14 +72,6 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getPasswordCheck() {
-        return passwordCheck;
-    }
-
-    public void setPasswordCheck(String passwordCheck) {
-        this.passwordCheck = passwordCheck;
     }
 
     public String getCountry() {

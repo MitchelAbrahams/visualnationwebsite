@@ -22,26 +22,25 @@ public class TestJdbc {
 
 
         try{
-
             // OLD EXAMPLES
             // saving object to DB
-//            User user = new User("ingezoutenbier","Inge1991", "ingezoutenbier@hotmail.com");
-//            session.beginTransaction();
-//            session.save(user);
-//            session.getTransaction().commit();
+            User user = new User("visualnation","testpw", "visualnationnl@gmail.com", "Netherlands");
+            session.beginTransaction();
+            session.save(user);
+            session.getTransaction().commit();
 
             // Getting obj from DB
-            int userId = 8;
-
-            session = factory.getCurrentSession();
-            session.beginTransaction();
-            User theUser = session.get(User.class, userId);
-
-            System.out.println("changing the username of: " + theUser);
-
-            theUser.setUsername("new username");
-
-            session.getTransaction().commit();
+//            int userId = 8;
+//
+//            session = factory.getCurrentSession();
+//            session.beginTransaction();
+//            User theUser = session.get(User.class, userId);
+//
+//            System.out.println("changing the username of: " + theUser);
+//
+//            theUser.setUsername("new username");
+//
+//            session.getTransaction().commit();
 
            // NEW EXAMPLES
 //            session.beginTransaction();

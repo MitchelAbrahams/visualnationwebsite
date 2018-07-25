@@ -58,7 +58,7 @@ let budgetController = (function(){
 
             values = data.allItems[type].map(function(current) {
                 return current.value;
-            })
+            });
             // Gets the right id and stores in var
             index = ids.indexOf(id);
 

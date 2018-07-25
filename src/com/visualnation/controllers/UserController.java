@@ -1,33 +1,29 @@
 package com.visualnation.controllers;
 
 import com.visualnation.entities.User;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
+import com.visualnation.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.HttpRequestHandler;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
 @Controller
+@SessionAttributes("session")
 @RequestMapping("/user")
 public class UserController {
 
-   private SessionFactory factory = new Configuration()
-            .configure("hibernate.cfg.xml")
-            .addAnnotatedClass(User.class)
-            .buildSessionFactory();
+    @Autowired
+    private UserService userService;
 
-   private Session session = factory.getCurrentSession();
-
+    // Checks all input that is passed trough and trims al white space in front and back of input
+    // "         white space         " --------> "white space"
     @InitBinder
     public void initBinder(WebDataBinder dataBinder){
         StringTrimmerEditor stringTrimmer = new StringTrimmerEditor(true);
@@ -44,23 +40,31 @@ public class UserController {
         return "account";
     }
 
-    @RequestMapping("/register")
+    @PostMapping("/register")
     public String register(@Valid @ModelAttribute("user") User theUser, BindingResult theBindingResult, ModelMap model){
 
-        // Bind the values
-//        model.addAttribute("username", theUser.getUsername());
-//        model.addAttribute("password", theUser.getPassword());
-//        model.addAttribute("email", theUser.getEmail());
-//        model.addAttribute("country", theUser.getCountry());
-
         if(theBindingResult.hasErrors()) {
-//            User user = new User();
-//            session.beginTransaction();
-//            session.save(user);
-//            session.getTransaction().commit();
             return "account";
         } else{
+            userService.saveUser(theUser);
             return "homepage";
+        }
+    }
+
+    @PostMapping("/login")
+    public String login(@ModelAttribute("user") User theUser, ModelMap model, HttpSession session){
+
+         User loggedInUser = userService.loginUser(theUser);
+
+        if(loggedInUser.getUsername().equals(theUser.getUsername()) && loggedInUser.getPassword().equals(theUser.getPassword())){
+
+            //put username and id in session
+            session.setAttribute("username",loggedInUser.getUsername());
+            session.setAttribute("userID",loggedInUser.getId());
+
+            return "homepage";
+        } else {
+            return "account";
         }
     }
 }

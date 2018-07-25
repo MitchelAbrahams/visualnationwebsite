@@ -37,6 +37,11 @@ p {
     font-weight: 300;
 }
 
+li p {
+    color: black;
+    font-weight: 400;
+}
+
 .row {
     max-width: 1180px;
     margin: 0 auto;

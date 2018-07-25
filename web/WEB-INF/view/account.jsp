@@ -54,15 +54,12 @@
             <div id="reg">
                 <h2>Register</h2>
                 <div class="form-position">
-                    <form:form action="user/register" modelAttribute="user">
+                    <form:form action="/user/register" modelAttribute="user" method="post">
                         <div>
                             <form:input path="username" class="form-input" placeholder="Enter desired username"/>
                         </div>
                         <div>
                             <form:password path="password" class="form-input" placeholder="Gimme a password"/>
-                        </div>
-                        <div>
-                            <form:password path="passwordCheck" class="form-input" placeholder="Gimme a password"/>
                         </div>
                         <div>
                             <form:input path="email" class="form-input" placeholder="Please enter your email"/>
@@ -85,7 +82,7 @@
             <div id="log">
                 <h2>Login</h2>
                 <div class="form-position">
-                    <form:form action="login" modelAttribute="user">
+                    <form:form action="/user/login" modelAttribute="user" method="post">
                         <div>
                             <form:input path="username" class="form-input" placeholder="Enter your username"/>
                         </div>
