@@ -31,13 +31,18 @@ public class UserController {
     }
 
     @RequestMapping("/account")
-    public String showPage(Model model){
+    public String showPage(HttpSession session, Model model){
 
-        User theUser = new User();
 
-        model.addAttribute("user", theUser);
+        if(session.getAttribute("userID") == null) {
+            User theUser = new User();
 
-        return "account";
+            model.addAttribute("user", theUser);
+
+            return "account";
+        } else {
+            return "account-detail";
+        }
     }
 
     @PostMapping("/register")

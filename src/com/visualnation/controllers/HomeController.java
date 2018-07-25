@@ -17,4 +17,7 @@ public class HomeController {
         return "account";
     }
 
+    @RequestMapping("/test")
+    public String test() {return "homepage"; }
+
 }
