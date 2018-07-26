@@ -3,9 +3,11 @@ package com.visualnation;
 
 import com.visualnation.entities.NewsItem;
 import com.visualnation.entities.User;
+import com.visualnation.service.NewsItemService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
@@ -25,10 +27,10 @@ public class TestJdbc {
         try{
             // OLD EXAMPLES
             // saving object to DB
-            NewsItem newsItem = new NewsItem("26-07-2018, Nijmegen", "super cool", "Nog een nieuw item nigguh");
-            session.beginTransaction();
-            session.save(newsItem);
-            session.getTransaction().commit();
+//            NewsItem newsItem = new NewsItem("26-07-2018, Nijmegen", "super cool", "Nog een nieuw item nigguh");
+//            session.beginTransaction();
+//            session.save(newsItem);
+//            session.getTransaction().commit();
 
             // Getting obj from DB
 //            int userId = 8;
@@ -44,14 +46,14 @@ public class TestJdbc {
 //            session.getTransaction().commit();
 
            // NEW EXAMPLES
-//            session.beginTransaction();
-//            List<User> userList = session.createQuery("from User u where u.username='ingezoutenbier'").getResultList();
-//
-//            for(User tempUsers : userList){
-//                System.out.println(tempUsers);
-//            }
-//
-//            session.getTransaction().commit();
+            session.beginTransaction();
+            List<NewsItem> userList = session.createQuery("from NewsItem ").getResultList();
+
+            for(NewsItem tempUsers : userList){
+                System.out.println(tempUsers);
+            }
+
+            session.getTransaction().commit();
 
 
         }

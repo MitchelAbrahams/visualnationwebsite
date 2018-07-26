@@ -7,27 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5351bfe4-2eee-4856-8caf-2fcc98c9e7fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/visualnation/entities/NewsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/visualnation/service/NewsItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/visualnation/service/NewsItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/js/backendApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/TestJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/TestJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/controllers/NewsItemConroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/controllers/NewsItemConroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/dao/NewsItemDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/dao/NewsItemDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/entities/NewsItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/entities/NewsItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/service/NewsItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/visualnation/service/NewsItemServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/view/account-detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/view/account-detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/resources/js/qouteGen.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/resources/js/qouteGen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/TestJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/TestJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/controllers/NewsItemConroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/controllers/NewsItemConroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/dao/NewsItemDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/dao/NewsItemDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/entities/NewsItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/entities/NewsItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/service/NewsItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBaseMvc/com/visualnation/service/NewsItemServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/visualnation/TestJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/TestJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visualnation/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visualnation/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visualnation/entities/NewsItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/entities/NewsItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visualnation/service/NewsItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visualnation/service/NewsItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/account-detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/account-detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/js/qouteGen.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/js/qouteGen.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,20 +50,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nav-bar.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/nav-bar.jsp">
+      <file leaf-file-name="NewsItemConroller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="408">
+              <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsItemDaoImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewsItemDaoImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +77,20 @@
       <file leaf-file-name="NewsItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/visualnation/entities/NewsItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +98,8 @@
       <file leaf-file-name="NewsItemServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/visualnation/service/NewsItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
@@ -97,11 +109,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="-561">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,8 +136,8 @@
       <file leaf-file-name="account-detail.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/account-detail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -121,38 +145,8 @@
       <file leaf-file-name="TestJdbc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/visualnation/TestJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="27" column="109" selection-start-line="27" selection-start-column="109" selection-end-line="27" selection-end-column="109" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc-crud-demo-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-mvc-crud-demo-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsItemConroller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="759">
+              <caret line="49" column="91" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,20 +211,20 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/account.jsp" />
         <option value="$PROJECT_DIR$/src/com/visualnation/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/visualnation/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/web/resources/js/qouteGen.js" />
         <option value="$PROJECT_DIR$/web/resources/js/backendApp.js" />
         <option value="$PROJECT_DIR$/web/resources/css/main.css" />
-        <option value="$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDao.java" />
         <option value="$PROJECT_DIR$/src/com/visualnation/service/NewsItemService.java" />
         <option value="$PROJECT_DIR$/src/com/visualnation/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/visualnation/service/NewsItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroler.java" />
-        <option value="$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/account-detail.jsp" />
+        <option value="$PROJECT_DIR$/src/com/visualnation/service/NewsItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/visualnation/entities/NewsItem.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/account-detail.jsp" />
         <option value="$PROJECT_DIR$/src/com/visualnation/TestJdbc.java" />
+        <option value="$PROJECT_DIR$/src/com/visualnation/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java" />
+        <option value="$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -329,6 +323,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="visualnation" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visualnationwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="visualnation" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visualnationwebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -654,12 +655,12 @@
       <workItem from="1532328486445" duration="22959000" />
       <workItem from="1532414285015" duration="20429000" />
       <workItem from="1532501128000" duration="19250000" />
-      <workItem from="1532587663388" duration="18086000" />
+      <workItem from="1532587663388" duration="23714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161345000" />
+    <option name="totallyTimeSpent" value="166973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -684,11 +685,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25079703" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25079703" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8014184" visible="true" weight="0.19947916" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.8014184" visible="true" weight="0.19947916" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info id="Web" order="7" sideWeight="0.19858156" side_tool="true" visible="true" weight="0.19947916" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -709,7 +710,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -785,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -844,16 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visualnation/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -898,16 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="38" column="84" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -936,27 +910,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/visualnation/TestJdbc.java">
+    <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="27" column="109" selection-start-line="27" selection-start-column="109" selection-end-line="27" selection-end-column="109" />
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/account-detail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/visualnation/entities/NewsItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/UserController.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -965,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visualnation/service/NewsItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
@@ -975,17 +956,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/visualnation/entities/NewsItem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/visualnation/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="759">
+          <caret line="49" column="91" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/account-detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -994,8 +985,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visualnation/controllers/NewsItemConroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/visualnation/dao/NewsItemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

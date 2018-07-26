@@ -1,7 +1,6 @@
 package com.visualnation.dao;
 
 import com.visualnation.entities.NewsItem;
-import com.visualnation.entities.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -18,7 +17,7 @@ public class NewsItemDaoImpl implements NewsItemDao {
     private SessionFactory sessionFactory;
 
     @Override
-    public List getNewsItems() {
+    public List<NewsItem> getNewsItems() {
 
         Session currentSession = sessionFactory.getCurrentSession();
 

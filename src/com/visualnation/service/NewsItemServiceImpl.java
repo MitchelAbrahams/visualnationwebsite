@@ -16,7 +16,7 @@ public class NewsItemServiceImpl implements NewsItemService {
 
     @Override
     @Transactional
-    public List getNewsItems() {
+    public List<NewsItem> getNewsItems() {
         return newsItemDao.getNewsItems();
     }
 }

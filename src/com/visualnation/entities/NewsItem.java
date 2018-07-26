@@ -23,6 +23,10 @@ public class NewsItem {
     private String item;
 
 
+    public NewsItem(){
+
+    }
+
     public NewsItem(String date, String title, String item) {
         this.date = date;
         this.title = title;

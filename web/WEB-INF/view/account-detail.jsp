@@ -12,6 +12,7 @@
 <body class="grey-bg">
 <head>
     <%@ include file="nav-bar.jsp" %>
+    <%@ page isELIgnored="false" %>
 </head>
 <main>
 
@@ -21,7 +22,7 @@
         <a href="/user/logout">Log out</a>
         <div class="news-feed">
             <h2>News</h2>
-            <h1>${news-items}</h1>
+            <h1>${item}</h1>
             <div class="news-block">
                 <h3>title of news item</h3>
                 <p class="date"><em>26-07-2018, Nijmegen</em></p>
