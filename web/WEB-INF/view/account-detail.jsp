@@ -9,15 +9,49 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ include file="header.jsp" %>
-<body>
+<body class="grey-bg">
 <head>
     <%@ include file="nav-bar.jsp" %>
 </head>
 <main>
+
     <div class="row">
-        <h1>this is a test</h1>
-        <a href="/test">go back to hamepage</a>
+        <h1>Dashboard</h1>
+        <a href="/test">Go back to homepage</a>
+        <a href="/user/logout">Log out</a>
+        <div class="news-feed">
+            <h2>News</h2>
+            <h1>${news-items}</h1>
+            <div class="news-block">
+                <h3>title of news item</h3>
+                <p class="date"><em>26-07-2018, Nijmegen</em></p>
+                <p class="news-text" id="news-item-1">
+                    Some kick ass text here, hoping that it will be long enough te fill the block en test if it works on
+                    two news items. i think it does, wanna know why?. Because i'm kick ass awesome that's why!. soo lets
+                    continue with this text just for the fun of it.
+                </p>
+            </div>
+            <%--<div class="news-block">--%>
+                <%--<h3>title of news item</h3>--%>
+                <%--<p class="date"><em>26-07-2018, Nijmegen</em></p>--%>
+                <%--<p class="news-text" id="news-item-2">--%>
+                    <%--Some kick ass text here, hoping that it will be long enough te fill the block en test if it works on--%>
+                    <%--two news items. i think it does, wanna know why?. Because i'm kick ass awesome that's why!. soo lets--%>
+                    <%--continue with this text just for the fun of it.--%>
+                <%--</p>--%>
+            <%--</div>--%>
+            <%--<div class="news-block">--%>
+                <%--<h3>title of news item</h3>--%>
+                <%--<p class="date"><em>26-07-2018, Nijmegen</em></p>--%>
+                <%--<p class="news-text" id="news-item-3">--%>
+                    <%--Some kick ass text here, hoping that it will be long enough te fill the block en test if it works on--%>
+                    <%--two news items. i think it does, wanna know why?. Because i'm kick ass awesome that's why!. soo lets--%>
+                    <%--continue with this text just for the fun of it.--%>
+                <%--</p>--%>
+            <%--</div>--%>
+        </div>
     </div>
 </main>
 </body>
+<script src="${pageContext.request.contextPath}/resources/js/backendApp.js"></script>
 </html>

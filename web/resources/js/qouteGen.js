@@ -2,8 +2,9 @@ Instructions = (function(){
 
     let quotesList = [
         'Login to get access to more features!',
-        'This is a personal project made bij Mitchel Abrahams, But geuss what.... You can change almost everything on this site, you just need to find where!',
-        'More info quotes are on its way, but for now have fun'
+        'This is a personal project made bij Mitchel Abrahams, But guess what.... You can change almost everything on this site, you just need to find where!',
+        'More info quotes are on its way, but for now have fun',
+        'This website is made with the Spring framework, Javascript, HTML and CSS'
     ];
 
     let randomNumber = function () {

@@ -30,6 +30,8 @@ public class UserController {
         dataBinder.registerCustomEditor(String.class, stringTrimmer);
     }
 
+
+    // Directs user to account or detail page depending on if the user is logged in or not
     @RequestMapping("/account")
     public String showPage(HttpSession session, Model model){
 
@@ -45,12 +47,15 @@ public class UserController {
         }
     }
 
+    // Register the user
     @PostMapping("/register")
     public String register(@Valid @ModelAttribute("user") User theUser, BindingResult theBindingResult, ModelMap model){
 
+        // if the user enters faulty info redirect to account page with errors
         if(theBindingResult.hasErrors()) {
             return "account";
         } else{
+            // if info is correct user will be saved in database
             userService.saveUser(theUser);
             return "homepage";
         }
@@ -59,17 +64,28 @@ public class UserController {
     @PostMapping("/login")
     public String login(@ModelAttribute("user") User theUser, ModelMap model, HttpSession session){
 
+        // Gets user from database
          User loggedInUser = userService.loginUser(theUser);
 
+         // Checks if retrieved username and password are the same
         if(loggedInUser.getUsername().equals(theUser.getUsername()) && loggedInUser.getPassword().equals(theUser.getPassword())){
 
             //put username and id in session
             session.setAttribute("username",loggedInUser.getUsername());
             session.setAttribute("userID",loggedInUser.getId());
 
+            // Redirect to homepage
             return "homepage";
         } else {
             return "account";
         }
+    }
+
+
+    // User logs out (destroys session)
+    @RequestMapping("/logout")
+    public String logout(HttpSession session){
+        session.invalidate();
+        return "homepage";
     }
 }

@@ -1,6 +1,7 @@
 package com.visualnation;
 
 
+import com.visualnation.entities.NewsItem;
 import com.visualnation.entities.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -15,7 +16,7 @@ public class TestJdbc {
 
         SessionFactory factory = new Configuration()
                                 .configure("hibernate.cfg.xml")
-                                .addAnnotatedClass(User.class)
+                                .addAnnotatedClass(NewsItem.class)
                                 .buildSessionFactory();
 
         Session session = factory.getCurrentSession();
@@ -24,9 +25,9 @@ public class TestJdbc {
         try{
             // OLD EXAMPLES
             // saving object to DB
-            User user = new User("visualnation","testpw", "visualnationnl@gmail.com", "Netherlands");
+            NewsItem newsItem = new NewsItem("26-07-2018, Nijmegen", "super cool", "Nog een nieuw item nigguh");
             session.beginTransaction();
-            session.save(user);
+            session.save(newsItem);
             session.getTransaction().commit();
 
             // Getting obj from DB
