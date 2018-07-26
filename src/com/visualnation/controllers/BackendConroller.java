@@ -12,17 +12,20 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @Controller
-public class NewsItemConroller {
+@RequestMapping("/backend")
+public class BackendConroller {
 
     @Autowired
     private NewsItemService newsItemService;
 
-    @ModelAttribute
-    public void getNewsItems(HttpSession session, Model model){
+    @RequestMapping("/dashboard")
+    public String getNewsItems(HttpSession session, Model model){
 
 
-            List<NewsItem> newsItemList = newsItemService.getNewsItems();
+//            List<NewsItem> newsItemList = newsItemService.getNewsItems();
+//
+//            model.addAttribute("item", newsItemList);
 
-            model.addAttribute("item", newsItemList);
+            return "account-detail";
     }
 }
