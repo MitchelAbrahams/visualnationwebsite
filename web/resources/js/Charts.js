@@ -72,6 +72,8 @@ let charts = (function (setup) {
                     // Ups the color index to pick new color from color array
                     colorIndex++;
                 }
+
+                // If doughnut hole size is being passed bij user, the pie chart becomes a doughnut chart
                 if (options.doughnutHoleSize){
                     setup.drawPieSlice(
                         ctx, 150, 150, options.doughnutHoleSize * Math.min( 150, 150), 0, 2 * Math.PI, "#ffffff"
@@ -102,8 +104,3 @@ let myPieChart = new charts.pieChart({
 });
 
 myPieChart.draw();
-
-
-
-// drawPieSlice(ctx, 150,150,100, 0, 1, '#ff0000');
-// drawPieSlice(ctx, 150,150,100, 1, 2, '#6699ff');
