@@ -35,7 +35,17 @@
             </c:forEach>
         </div>
         <%--##############################  NEWS BLOCK  #####################################--%>
+
         <div class="flex-small-block">
+            <div class="small-dash-block">
+                <div class="small-dash-title">
+                    <h2>All time logins</h2>
+                </div>
+                <canvas id="chart">
+
+                </canvas>
+
+            </div>
             <div class="small-dash-block">
 
             </div>
@@ -50,4 +60,5 @@
 </main>
 </body>
 <script src="${pageContext.request.contextPath}/resources/js/backendApp.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/Charts.js"></script>
 </html>
