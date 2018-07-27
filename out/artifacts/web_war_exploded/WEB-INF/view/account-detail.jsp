@@ -18,38 +18,33 @@
 
     <div class="row">
         <h1>Dashboard</h1>
-        <a href="/test">Go back to homepage</a>
-        <a href="/user/logout">Log out</a>
+        <%--<a href="/test">Go back to homepage</a>--%>
+        <%--<a href="/user/logout">Log out</a>--%>
+
+        <%--##############################  NEWS BLOCK  #####################################--%>
         <div class="news-feed">
             <h2>News</h2>
-            <h1>${item}</h1>
-            <div class="news-block">
-                <h3>title of news item</h3>
-                <p class="date"><em>26-07-2018, Nijmegen</em></p>
-                <p class="news-text" id="news-item-1">
-                    Some kick ass text here, hoping that it will be long enough te fill the block en test if it works on
-                    two news items. i think it does, wanna know why?. Because i'm kick ass awesome that's why!. soo lets
-                    continue with this text just for the fun of it.
+            <c:forEach begin="0" end="${item.size() - 1}" varStatus="loop">
+                <div class="news-block">
+                <h3>${item.get(loop.index).title}</h3>
+                <p class="date"><em>${item.get(loop.index).date}</em></p>
+                <p class="news-text" id="news-item-${loop.index}">
+                ${item.get(loop.index).item}
                 </p>
+                </div>
+            </c:forEach>
+        </div>
+        <%--##############################  NEWS BLOCK  #####################################--%>
+        <div class="flex-small-block">
+            <div class="small-dash-block">
+
             </div>
-            <%--<div class="news-block">--%>
-                <%--<h3>title of news item</h3>--%>
-                <%--<p class="date"><em>26-07-2018, Nijmegen</em></p>--%>
-                <%--<p class="news-text" id="news-item-2">--%>
-                    <%--Some kick ass text here, hoping that it will be long enough te fill the block en test if it works on--%>
-                    <%--two news items. i think it does, wanna know why?. Because i'm kick ass awesome that's why!. soo lets--%>
-                    <%--continue with this text just for the fun of it.--%>
-                <%--</p>--%>
-            <%--</div>--%>
-            <%--<div class="news-block">--%>
-                <%--<h3>title of news item</h3>--%>
-                <%--<p class="date"><em>26-07-2018, Nijmegen</em></p>--%>
-                <%--<p class="news-text" id="news-item-3">--%>
-                    <%--Some kick ass text here, hoping that it will be long enough te fill the block en test if it works on--%>
-                    <%--two news items. i think it does, wanna know why?. Because i'm kick ass awesome that's why!. soo lets--%>
-                    <%--continue with this text just for the fun of it.--%>
-                <%--</p>--%>
-            <%--</div>--%>
+            <div class="small-dash-block">
+
+            </div>
+            <div class="small-dash-block">
+
+            </div>
         </div>
     </div>
 </main>
